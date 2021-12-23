@@ -1,0 +1,48 @@
+* {
+  background: linear-gradient(90deg, #350252 21.49%, #040132 100%),
+    linear-gradient(90deg, rgba(53, 2, 82, 0.6) 22.92%, #040132 100%);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+a {
+  background: none;
+}
+
+body {
+  font-size: 100%;
+}
+
+/* .container-baner */
+
+.card-container {
+  height: 100vh; 
+  width: 250px;
+
+  background: linear-gradient(
+    180deg,
+    #350252 0%,
+    #350252 69.53%,
+    rgba(142, 1, 228, 0.28) 100%
+  );
+  box-shadow: 0px 4px 15px 7px rgba(0, 0, 0, 0.25);
+}
+
+.foto-perfil {
+  width: 250px;
+}
+
+.card-container-titulo .card-container-carrocel .img-nav-link {
+  background: none;
+}
+
+@media (max-width: 1280px) {
+    
+}
+@media (max-width: 1000px) {
+    
+}
+@media (max-width: 600px) {
+    
+}
