@@ -2,6 +2,7 @@
 
 a {
     text-decoration: none;
+    color: #fff;
 }
 .corpo{
     background: linear-gradient(90deg, #350252 21.49%, #040132 100%), linear-gradient(90deg, rgba(53, 2, 82, 0.6) 22.92%, #040132 100%);
