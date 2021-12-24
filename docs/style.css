@@ -1,6 +1,7 @@
 * {
-  background: linear-gradient(90deg, #350252 21.49%, #040132 100%),
-    linear-gradient(90deg, rgba(53, 2, 82, 0.6) 22.92%, #040132 100%);
+  /* background: linear-gradient(90deg, #350252 21.49%, #040132 100%),
+    linear-gradient(90deg, rgba(53, 2, 82, 0.6) 22.92%, #040132 100%); */
+  background: #2C3E50;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -14,17 +15,40 @@ body {
   font-size: 100%;
 }
 .container-baner{
+  display: flex;
+}
+
+.card-container{
   
 }
 
+.card-container{
+  width: 250px;
+  background: none  ;
 
-/* .card-container
-.foto-perfil
-.card-container-titulo
-.card-container-carrocel
-.card-container-nav-link
-.card-container-links-externos
-.img-nav-link */
+  margin: 0% 5% 0% 10%;
+}
+
+.foto-perfil{
+  width: 250px;
+}
+.card-container-titulo{
+  color: #00B87B;
+}
+.card-container-carrocel{
+  color: #fff;
+}
+
+.card-container-nav-link{
+  /* display: flex; */
+}
+.flex-container-midias{
+  display: flex;
+  width: 40px;
+  height: 40px;
+}
+/* .card-container-links-externos */
+/* .img-nav-link */
 
 
 /* .container-baner */
