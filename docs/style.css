@@ -1,82 +1,87 @@
-* {
-  /* background: linear-gradient(90deg, #350252 21.49%, #040132 100%),
-    linear-gradient(90deg, rgba(53, 2, 82, 0.6) 22.92%, #040132 100%); */
-  background: #2C3E50;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
 a {
-  background: none;
+    text-decoration: none;
+}
+.corpo{
+    background: linear-gradient(90deg, #350252 21.49%, #040132 100%), linear-gradient(90deg, rgba(53, 2, 82, 0.6) 22.92%, #040132 100%);
+    display: flex;
 }
 
-body {
-  font-size: 100%;
-}
-.container-baner{
-  display: flex;
-}
-
-.card-container{
-  
+.card {
+    position: absolute;
+    margin: 0% 5% 0% 10%;
+    background: linear-gradient(180deg, #350252 0%, #350252 69.53%, rgba(142, 1, 228, 0.28) 100%);
+    box-shadow: 0px 4px 15px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
 }
 
-.card-container{
-  width: 250px;
-  background: none  ;
-
-  margin: 0% 5% 0% 10%;
+.card-title{
+    text-align: center;
+    color: #00B87B;
+    font-family: 'Roboto', sans-serif;
+}
+.card-text{
+    text-align: center;
+    color: #fff;
+    font-size: 29px;
+    font-family: 'Roboto', sans-serif;
 }
 
-.foto-perfil{
-  width: 250px;
+.img-nav-link{
+    width: 30px;
+    margin-bottom: 10px;
 }
-.card-container-titulo{
-  color: #00B87B;
+.linkImgSocial{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 25% 0 25%;
 }
-.card-container-carrocel{
-  color: #fff;
+.btnDowload{
+    display: flex;
+    margin-top: 10px;
 }
-
-.card-container-nav-link{
-  /* display: flex; */
+.list-group {
+    display: flex;
+    flex-direction: row;
 }
-.flex-container-midias{
-  display: flex;
-  width: 40px;
-  height: 40px;
+.btnLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid .1pt #FFF;
+    background: rgba(142, 1, 228, 0.28) 100%;
+    width: 150px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
 }
-/* .card-container-links-externos */
-/* .img-nav-link */
-
-
-/* .container-baner */
-/* 
-.card-container {
-  width: 250px;
-
-  background: linear-gradient(
-    180deg,
-    #350252 0%,
-    #350252 69.53%,
-    rgba(142, 1, 228, 0.28) 100%
-  );
-  box-shadow: 0px 4px 15px 7px rgba(0, 0, 0, 0.25);
+.conteudo{
+    margin-top: 25px;
 }
 
-.foto-perfil {
-  width: 250px;
+.containerConteudo, .informacoesPessoais{
+    margin: 0 0 0 500px;
+    width: 650px;
+    font-size: 20px;
 }
-.card-container-titulo {
-  color: #00b87b;
-} */
- 
 
+.tituloConteudo{
+    color: #fff;
+}
 
-@media (max-width: 1280px) {
+.textoConteudo{
+    margin-top: 250px;
+    color: #fff;
 }
-@media (max-width: 1000px) {
+
+.informacoesPessoais{
+    color: #fff;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
 }
-@media (max-width: 600px) {
+.corVerde{
+    color: #00B87B;
+    font: bolder;
 }
