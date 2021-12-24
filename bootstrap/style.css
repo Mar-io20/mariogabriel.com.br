@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
-.corpo{
-    background: #350252;
-}
 
 a {
     text-decoration: none;
 }
+.corpo{
+    background: linear-gradient(90deg, #350252 21.49%, #040132 100%), linear-gradient(90deg, rgba(53, 2, 82, 0.6) 22.92%, #040132 100%);
+    display: flex;
+}
 
 .card {
+    position: absolute;
     margin: 0% 5% 0% 10%;
     background: linear-gradient(180deg, #350252 0%, #350252 69.53%, rgba(142, 1, 228, 0.28) 100%);
     box-shadow: 0px 4px 15px 7px rgba(0, 0, 0, 0.25);
@@ -33,13 +35,53 @@ a {
 .linkImgSocial{
     display: flex;
     justify-content: space-between;
-    margin: auto 25%;
+    margin: 50px 25% 0 25%;
 }
 .btnDowload{
     display: flex;
-    width: 100%;
+    margin-top: 10px;
 }
 .list-group {
     display: flex;
     flex-direction: row;
+}
+.btnLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid .1pt #FFF;
+    background: rgba(142, 1, 228, 0.28) 100%;
+    width: 150px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.conteudo{
+    margin-top: 25px;
+}
+
+.containerConteudo, .informacoesPessoais{
+    margin: 0 0 0 500px;
+    width: 650px;
+    font-size: 20px;
+}
+
+.tituloConteudo{
+    color: #fff;
+}
+
+.textoConteudo{
+    margin-top: 250px;
+    color: #fff;
+}
+
+.informacoesPessoais{
+    color: #fff;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.corVerde{
+    color: #00B87B;
+    font: bolder;
 }
