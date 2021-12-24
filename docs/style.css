@@ -13,11 +13,23 @@ a {
 body {
   font-size: 100%;
 }
+.container-baner{
+  
+}
+
+
+/* .card-container
+.foto-perfil
+.card-container-titulo
+.card-container-carrocel
+.card-container-nav-link
+.card-container-links-externos
+.img-nav-link */
+
 
 /* .container-baner */
-
+/* 
 .card-container {
-  height: 100vh; 
   width: 250px;
 
   background: linear-gradient(
@@ -32,17 +44,15 @@ body {
 .foto-perfil {
   width: 250px;
 }
+.card-container-titulo {
+  color: #00b87b;
+} */
+ 
 
-.card-container-titulo .card-container-carrocel .img-nav-link {
-  background: none;
-}
 
 @media (max-width: 1280px) {
-    
 }
 @media (max-width: 1000px) {
-    
 }
 @media (max-width: 600px) {
-    
 }
